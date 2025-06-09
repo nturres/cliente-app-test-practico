@@ -1,0 +1,11 @@
+@Clientes_HostAddress = http://localhost:5176
+
+GET {{Clientes_HostAddress}}/clientes/sp
+Accept: application/json
+
+###
+
+GET {{Clientes_HostAddress}}/clientes/linq
+Accept: application/json
+
+###

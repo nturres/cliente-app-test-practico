@@ -1,0 +1,36 @@
+<div class="clientes-container">
+    <nav class="nav-menu">
+        <a [class.active]="tipo === 'sp'" (click)="navegar('sp')">Clientes SP</a>
+        <a [class.active]="tipo === 'linq'" (click)="navegar('linq')">Clientes LINQ</a>
+    </nav>
+
+    <h2>Lista de Clientes</h2>
+
+    <table class="table" *ngIf="clientes.length > 0">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Teléfono</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let cliente of clientes">
+                <td>{{ cliente.nombre }}</td>
+                <td>{{ cliente.telefono | telefono }}</td>
+                <td>{{ cliente.pais }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="pagination" *ngIf="clientes.length > 0">
+        <button class="btn" (click)="cambiarPagina(-1)" [disabled]="page === 1">&laquo; Anterior</button>
+        <span>Página {{ page }}</span>
+        <button 
+          class="btn" 
+          (click)="cambiarPagina(1)" 
+          [disabled]="page * pageSize >= total">
+          Siguiente &raquo;
+        </button>
+    </div>
+    </div>
