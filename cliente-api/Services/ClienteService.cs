@@ -1,9 +1,9 @@
-﻿using ClientesApi.Contracts;
-using ClientesApi.Dtos;
-using ClientesApi.Models;
+﻿using ClienteApi.Contracts;
+using ClienteApi.Dtos;
+using ClienteApi.Models;
 using System.Drawing;
 
-namespace ClientesApi.Services
+namespace ClienteApi.Services
 {
     public class ClienteService : IClienteService
     {

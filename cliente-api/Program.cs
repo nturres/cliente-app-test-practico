@@ -1,7 +1,7 @@
-using ClientesApi.Contracts;
-using ClientesApi.Data;
-using ClientesApi.Repositories;
-using ClientesApi.Services;
+using ClienteApi.Contracts;
+using ClienteApi.Data;
+using ClienteApi.Repositories;
+using ClienteApi.Services;
 using Microsoft.EntityFrameworkCore;
 using System.Text.Json;
 using System.Text.Json.Serialization;

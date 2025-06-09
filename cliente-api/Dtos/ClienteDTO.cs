@@ -1,8 +1,7 @@
-﻿namespace ClientesApi.Models
+﻿namespace ClienteApi.Dtos
 {
-    public class Cliente
+    public class ClienteDTO
     {
-        public int Id { get; set; }
         public required string Nombre { get; set; }
         public required string Telefono { get; set; }
         public required string Pais { get; set; }

@@ -1,6 +1,6 @@
-﻿using ClientesApi.Models;
+﻿using ClienteApi.Models;
 
-namespace ClientesApi.Contracts
+namespace ClienteApi.Contracts
 {
     public interface IClienteRepository
     {

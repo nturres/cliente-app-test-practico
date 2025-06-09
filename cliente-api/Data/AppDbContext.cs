@@ -1,13 +1,14 @@
-﻿using ClientesApi.Models;
+﻿using ClienteApi.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClientesApi.Data
+namespace ClienteApi.Data
 {
     public class AppDbContext : DbContext
     {
         public DbSet<Cliente> Clientes { get; set; }
 
-        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { 
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

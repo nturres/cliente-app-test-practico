@@ -1,6 +1,6 @@
-﻿using ClientesApi.Dtos;
+﻿using ClienteApi.Dtos;
 
-namespace ClientesApi.Contracts
+namespace ClienteApi.Contracts
 {
     public interface IClienteService
     {

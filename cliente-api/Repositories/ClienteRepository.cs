@@ -1,9 +1,9 @@
-﻿using ClientesApi.Contracts;
-using ClientesApi.Data;
-using ClientesApi.Models;
+﻿using ClienteApi.Contracts;
+using ClienteApi.Data;
+using ClienteApi.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace ClientesApi.Repositories
+namespace ClienteApi.Repositories
 {
     public class ClienteRepository : IClienteRepository
     {

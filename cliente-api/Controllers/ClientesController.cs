@@ -1,7 +1,7 @@
-﻿using ClientesApi.Contracts;
+﻿using ClienteApi.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace ClientesApi.Controllers
+namespace ClienteApi.Controllers
 {
     [ApiController]
     [Route("api/clientes")]
