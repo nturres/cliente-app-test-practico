@@ -1,4 +1,4 @@
-# Cliente App
+# Cliente App - Test Practico
 
 Este repositorio contiene dos proyectos principales:
 
